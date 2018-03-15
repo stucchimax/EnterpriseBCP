@@ -125,7 +125,11 @@ Finally, getting your own IP space does not necessarily mean that you will need 
 
 ##### Case study: Banking / Financial (Rabobank)
 
+(Hisham)
+
 #### 4.1.4 - Maintaining Contact Information in Regional Internet Registries (RIRs)
+
+(Max)
 
 ### 4.2 - Filtering – Preventing propagation of incorrect routing information
 #### 4.2.1 
@@ -134,6 +138,15 @@ Finally, getting your own IP space does not necessarily mean that you will need 
 #### 4.3.1 New section... 
 
 ### 4.4 - DDoS mitigation
+
+(Jad)
+DDoS can be in different ways
+Mitigation can occur in different points
+Scrubbing
+Analyze netflow and act accordingly
+Traffic engineering
+Blackholing affected addresses (hard)
+
 
 #### 4.4.1
 
