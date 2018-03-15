@@ -79,6 +79,21 @@ Which is why they went and requested their own Internet number resources from th
 
 #### 4.1.4 - Why get your own IP addresses (IPv4 & IPv6)
 
+IP addresses are the key elements in the establishment of network connections and play a bit role in the "online identity" of its end-users; that is why the choice of what IP address to use is of great importance on the global scene.
+
+In today's business scene, holding your own IP addresses, both IPv4 and IPv6, allows you to have a more "robust" presence on the Internet. This translates in an organization being independent from its ISP/upstream in terms of what IP addresses to use which would allow for flexibility in the choice of upstreams (multiple / multihoming). It also facilitates the operational side of running the network by eliminating the need of renumbering in the event where the organization decides to change ISPs since in that case changing providers does not mean changing IP addresses. 
+
+On another note, having your own IP addresses provides faster redundancy and mitigation against network attacks, specifically DDoS. An organization could decide not to advertize its entire IP space and in case one of its IPs/Prefixes becomes the target of a cyberattack, it can quickly drop the targetted IP Space, start advertising its "backup" IP ranges and move its services to them. This is crucial for business continuity and allows the targetted organization to have a more "robust" internet presence and reduces the factor of depending on the upstream soleley to mitigate the cyberattack. 
+
+Holding your own IP addresses permits an organization to have a better global presence across different offices, locations, continents. In fact, the organization can adopt one consistent global IP addressing plan even if there are offices in locations that would typically fall under other RIRs. It could also have one ASN and have all of the organziation's points of presence, networks and locations under this umbrella. This is also very important in case the ogranization has contingency plans in place or Disaster Recovery sites in case of emergencies. 
+
+Traffic engineering is also greatly facilitated since the organization will have a better control over what services are published on what IPs independently of what upstream connection is being used for these services. 
+
+Finally, getting your own IP space does not necessarily mean that you will need to be the one managing its advertisement on the internet in case you don't have the resources to do that. In fact, you can still get all the benefits and advantages of holding your own IP addresses that we have mentioned above and delegate the task of advertising your IP prefixes to your upstream provider of choice. 
+
+
+
+
 ##### Case study: Banking / Financial (Rabobank)
 
 #### 4.1.4 - Maintaining Contact Information in Regional Internet Registries (RIRs)
