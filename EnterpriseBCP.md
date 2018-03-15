@@ -64,6 +64,19 @@ Publicly used Internet Number Resources have to be unique* to insure the deliver
 
 #### 4.1.4 - Why get your own IP addresses (IPv4 & IPv6)
 
+IP addresses are the key elements in the establishment of network connections and play a bit role in the "online identity" of its end-users; that is why the choice of what IP address to use is of great importance on the global scene.
+
+In today's business scene, holding your own IP addresses, both IPv4 and IPv6, allows you to have a more "robust" presence on the Internet. This translates in an organization being independent from its ISP/upstream in terms of what IP addresses to use which would allow for flexibility in the choice of upstreams (multiple). It also facilitates the operational side of running the network by eliminating the need of renumbering in the event where the organization decides to change ISPs since in that case changing providers does not mean changing IP addresses. 
+
+On another note, having your own IP addresses provides faster redundancy and mitigation against network attacks, specifically DDoS. An organization could decide not to advertize its entire IP space and in case one of its IPs/Prefixes becomes the target of a cyberattack, it can quickly drop the targetted IP Space, start advertising its "backup" IP ranges and move its services to them. This is crucial for business continuity and allows the targetted organization to have a more "robust" internet presence and reduces the factor of depending on the upstream soleley to mitigate the cyberattack. 
+
+consistent IP Addressing if you are a global organization (spanning different geographical areas)
+
+multihoming / traffic engineering
+
+
+
+
 ##### Case study: Banking / Financial (Rabobank)
 
 #### 4.1.4 - Maintaining Contact Information in Regional Internet Registries (RIRs)
