@@ -1,34 +1,34 @@
 # MANRS-like Document for Enterprise Networks
 
-* [Target audience](#target-audience)
-* [1 - Introduction](#1---introduction)
-* [2 - Definitions](#2---definitions)
-* [3 - Principles](#3---principles)
-  * [3.1 - Identification -Building your own resilient network identity.](#31---identification--building-your-own-resilient-network-identity)
-  * [3.2 - Filtering – Preventing propagation of incorrect routing information](#32---filtering--preventing-propagation-of-incorrect-routing-information)
-  * [3.3 - Anti-Spoofing - Preventing traffic with spoofed source IP addresses](#33---anti-spoofing---preventing-traffic-with-spoofed-source-ip-addresses)
-  * [3.4 - DDoS mitigation](#34---ddos-mitigation)
-  * [3.5 - Validation &amp; Certification (Internet Resource, web, mail)](#35---validation--certification-internet-resource-web-mail)
-* [4 - Expected Actions](#4---expected-actions)
-  * [4.1 - Identification -Building your own resilient network identity.](#41---identification--building-your-own-resilient-network-identity)
-    * [4.1.1 - Internet Number Resource Management System](#411---internet-number-resource-management-system)
-    * [4.1.2 - Why get your own Autonomous System Number (ASN)?](#412---why-get-your-own-autonomous-system-number-asn)
-    * [Case study: Media / Entertainment (MBC Group)](#case-study-media--entertainment-mbc-group)
-  * [4.1.3 - Multihoming](#413---multihoming)
-  * [4.1.4 - Why get your own IP addresses (IPv4 &amp; IPv6)](#414---why-get-your-own-ip-addresses-ipv4--ipv6)
-    * [Case study: Banking / Financial (Rabobank)](#case-study-banking--financial-rabobank)
-  * [4.1.4 - Maintaining Contact Information in Regional Internet Registries (RIRs)](#414---maintaining-contact-information-in-regional-internet-registries-rirs)
-  * [4.2 - Filtering – Preventing propagation of incorrect routing information](#42---filtering--preventing-propagation-of-incorrect-routing-information)
-  * [4.2.1](#421)
-  * [4.3 - Anti-Spoofing - Preventing traffic with spoofed source IP addresses](#43---anti-spoofing---preventing-traffic-with-spoofed-source-ip-addresses)
-  * [4.3.1 New section...](#431-new-section)
-  * [4.4 - DDoS mitigation](#44---ddos-mitigation)
-    * [4.4.1](#441)
-  * [4.5 - Validation &amp; Certification (Internet Resource, web, mail)](#45---validation--certification-internet-resource-web-mail)
-    * [4.5.1 - RPKI](#451---rpki)
-    * [4.5.2 - TLS](#452---tls)
-    * [4.5.3 - DNSSEC &amp; DANE](#453---dnssec--dane)
-* [5 - References](#5---references)
+- [Target audience](#target-audience)
+- [1 - Introduction](#1---introduction)
+- [2 - Definitions](#2---definitions)
+- [3 - Principles](#3---principles)
+  - [3.1 - Identification -Building your own resilient network identity.](#31---identification--building-your-own-resilient-network-identity)
+  - [3.2 - Filtering – Preventing propagation of incorrect routing information](#32---filtering--preventing-propagation-of-incorrect-routing-information)
+  - [3.3 - Anti-Spoofing - Preventing traffic with spoofed source IP addresses](#33---anti-spoofing---preventing-traffic-with-spoofed-source-ip-addresses)
+  - [3.4 - DDoS mitigation](#34---ddos-mitigation)
+  - [3.5 - Validation &amp; Certification (Internet Resource, web, mail)](#35---validation--certification-internet-resource-web-mail)
+- [4 - Expected Actions](#4---expected-actions)
+  - [4.1 - Identification -Building your own resilient network identity.](#41---identification--building-your-own-resilient-network-identity)
+     - [4.1.1 - Internet Number Resource Management System](#411---internet-number-resource-management-system)
+     - [4.1.2 - Why get your own Autonomous System Number (ASN)?](#412---why-get-your-own-autonomous-system-number-asn)
+     - [Case study: Media / Entertainment (MBC Group)](#case-study-media--entertainment-mbc-group)
+     - [4.1.3 - Multihoming](#413---multihoming)
+     - [4.1.4 - Why get your own IP addresses (IPv4 &amp; IPv6)](#414---why-get-your-own-ip-addresses-ipv4--ipv6)
+     - [Case study: Banking / Financial (Rabobank)](#case-study-banking--financial-rabobank)
+     - [4.1.4 - Maintaining Contact Information in Regional Internet Registries (RIRs)](#414---maintaining-contact-information-in-regional-internet-registries-rirs)
+  - [4.2 - Filtering – Preventing propagation of incorrect routing information](#42---filtering--preventing-propagation-of-incorrect-routing-information)
+     - [4.2.1](#421)
+  - [4.3 - Anti-Spoofing - Preventing traffic with spoofed source IP addresses](#43---anti-spoofing---preventing-traffic-with-spoofed-source-ip-addresses)
+     - [4.3.1 New section...](#431-new-section)
+  - [4.4 - DDoS mitigation](#44---ddos-mitigation)
+     - [4.4.1](#441)
+  - [4.5 - Validation &amp; Certification (Internet Resource, web, mail)](#45---validation--certification-internet-resource-web-mail)
+     - [4.5.1 - RPKI](#451---rpki)
+     - [4.5.2 - TLS](#452---tls)
+     - [4.5.3 - DNSSEC &amp; DANE](#453---dnssec--dane)
+- [5 - References](#5---references)
 
 
 
@@ -57,7 +57,7 @@ Reactive approaches to building and securing the Internet by running after secur
 
 **BGP:** Border Gateway Protocol.  It's the protocol used by networks to exchange routing information.  It is the routing protocol of the Internet, and it's fundamental in making addresses reachable from the rest of the world.
 
-**IP Address:** It's a number that corresponds to....
+**IP Address:** It's a number that corresponds to
 
 **IPv4:** 
 
